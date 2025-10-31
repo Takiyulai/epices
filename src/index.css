@@ -1,0 +1,11 @@
+/* src/index.css */
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;    color: #3D3D3D;
+    background-color: #F8F1E9;
+    min-height: 100vh;
+  }
+}
