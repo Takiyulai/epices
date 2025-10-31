@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, MapPin, Phone, Mail, Clock } from "lucide-react";
 
-const WA_NUMBER = "22997112233";
+const WA_NUMBER = "22966665226";
 const WA_LINK = `https://wa.me/${WA_NUMBER}`;
 
 export default function ContactSection() {
@@ -36,11 +36,10 @@ export default function ContactSection() {
     setStatus("sending");
 
     const text = encodeURIComponent(
-      `📬 Nouveau message depuis le site Suhaylah 🌿\n\n` +
+      `📬 Nouveau message depuis le site KHALIS EPICES 🌿\n\n` +
       `👤 Nom : ${formData.name}\n` +
       `✉️ Email : ${formData.email}\n\n` +
       `💬 Message :\n${formData.message}\n\n` +
-      `👉 Répondez-lui directement sur WhatsApp ou par email.`
     );
 
     const waUrl = `${WA_LINK}?text=${text}`;
