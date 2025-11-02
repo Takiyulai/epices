@@ -39,7 +39,7 @@ export default function ContactSection() {
       `📬 Nouveau message depuis le site KHALIS EPICES 🌿\n\n` +
       `👤 Nom : ${formData.name}\n` +
       `✉️ Email : ${formData.email}\n\n` +
-      `💬 Message :\n${formData.message}\n\n` +
+      `💬 Message :\n${formData.message}\n\n`
     );
 
     const waUrl = `${WA_LINK}?text=${text}`;
@@ -176,7 +176,7 @@ export default function ContactSection() {
             <Mail size={22} className="text-olive mt-1" />
             <p>
               <strong>Email :</strong> <br />
-              khalisepices@gmail.com
+              khalisnature@gmail.com
             </p>
           </div>
 

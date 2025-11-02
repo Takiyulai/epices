@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ShoppingBag } from "lucide-react";
 import heroBg from "../assets/images/hero-bg.jpg";
 
-const WA_LINK = "https://wa.me/22966665226?text=Bonjour%20khalis-epices%2C%20je%20souhaite%20commander%20vos%20épices.";
+const WA_LINK = "https://wa.me/22966665226?text=Bonjour%20khalis-nature%2C%20je%20souhaite%20commander%20vos%20épices.";
 
 export default function Hero() {
   return (

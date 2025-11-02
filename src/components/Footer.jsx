@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import { ShoppingBag, Instagram, Mail } from "lucide-react";
 
-const WA_LINK = "https://wa.me/22966665226?text=Bonjour%20khalis-epices%2C%20je%20souhaite%20commander%20vos%20épices.";
+const WA_LINK = "https://wa.me/22966665226?text=Bonjour%20khalis-nature%2C%20je%20souhaite%20commander%20vos%20épices.";
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
         <div>
           <h3 className="text-3xl font-display font-bold">
             <span className="text-red-500">KHALIS</span>
-            <span className="text-olive-600">EPICES</span>
+            <span className="text-olive-600">NATURE</span>
           </h3>
           <p className="text-sm opacity-80 mt-2">
             Des épices naturelles pour éveiller vos sens.
@@ -70,7 +70,7 @@ export default function Footer() {
       <div className="mt-10 text-center text-sm text-beige/80">
         © 2025{" "}
         <span className="font-semibold text-gold">
-          KHALISEPICES
+          KHALIS NATURE
         </span>
         . Tous droits réservés.
       </div>

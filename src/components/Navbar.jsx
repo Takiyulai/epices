@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Menu, X, ShoppingBag } from "lucide-react";
 import { useState } from "react";
 
-const WA_LINK = "https://wa.me/22966665226?text=Bonjour%20khalis-epices%2C%20je%20souhaite%20commander%20vos%20épices.";
+const WA_LINK = "https://wa.me/22966665226?text=Bonjour%20khalis-nature%2C%20je%20souhaite%20commander%20vos%20épices.";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +31,7 @@ export default function Navbar() {
           </div>
           <span className="font-display text-xl font-bold">
             <span className="text-red-500">KHALIS</span>
-            <span className="text-olive-600">EPICES</span>
+            <span className="text-olive-600">NATURE</span>
           </span>
         </a>
 
