@@ -43,7 +43,7 @@ export default function Testimonials() {
 
               {/* --- Nom du client --- */}
               <p className="font-semibold text-earth text-center tracking-wide">
-                — {t.name}
+                {t.name}
               </p>
             </motion.div>
           ))}

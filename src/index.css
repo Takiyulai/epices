@@ -1,10 +1,59 @@
-/* src/index.css */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-earth: #8B4513;
+  --color-olive-400: #7BA23F;
+  --color-olive-500: #6B8E23;
+  --color-olive-600: #5A7A1A;
+  --color-gold: #D4A017;
+  --color-beige: #F5F5DC;
+  --color-neutral: #3D3D3D;
+  --color-background: #F8F1E9;
+  --color-accent: #E5C07B;
+  --color-cta-green: #2C5F2D;
+  --color-cta-terracotta: #C17A47;
+  
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
 @layer base {
   body {
-    font-family: 'Poppins', sans-serif;    color: #3D3D3D;
-    background-color: #F8F1E9;
+    font-family: var(--font-body);
+    color: var(--color-neutral);
+    background-color: var(--color-background);
     min-height: 100vh;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Styles pour le carrousel */
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .embla__slide {
+    flex: 0 0 calc(50% - 0.75rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 calc(33.333% - 1rem);
   }
 }

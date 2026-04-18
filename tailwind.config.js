@@ -1,23 +1,33 @@
-// tailwind.config.js
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./src/index.css", // Important
   ],
   theme: {
     extend: {
       colors: {
         earth: "#8B4513",
-        olive: "#6B8E23",
+        olive: {
+          400: "#7BA23F",
+          500: "#6B8E23",
+          600: "#5A7A1A",
+        },
         gold: "#D4A017",
         beige: "#F5F5DC",
         neutral: "#3D3D3D",
-        background: "#F8F1E9", // couleur de fond du site
-        accent: "#E5C07B",     // couleur secondaire (utile pour hover ou CTA)
-        
+        background: "#F8F1E9",
+        accent: "#E5C07B",
+        cta: {
+          green: "#2C5F2D",
+          terracotta: "#C17A47",
+        },
       },
-    }
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        body: ['Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };

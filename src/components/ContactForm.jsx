@@ -120,7 +120,7 @@ export default function ContactSection() {
               disabled={status === "sending"}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="w-full bg-black hover:bg-olive/90 text-white font-semibold py-4 rounded-lg flex items-center justify-center gap-2 transition disabled:opacity-70 shadow-md"
+              className="w-full bg-[#C17A47] hover:bg-[#2C5F2D] text-white font-semibold py-4 rounded-lg flex items-center justify-center gap-2 transition disabled:opacity-70 shadow-md"
             >
               {status === "sending" ? (
                 "Préparation..."
@@ -131,7 +131,6 @@ export default function ContactSection() {
                 </>
               )}
             </motion.button>
-
             {status === "success" && (
               <motion.p
                 initial={{ opacity: 0 }}
@@ -189,7 +188,7 @@ export default function ContactSection() {
             </p>
           </div>
 
-          
+
         </motion.div>
       </div>
     </section>
