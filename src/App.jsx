@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="pt-20">
+    <div className="pt-5">
       <Navbar />
       <Hero />
       <Features />

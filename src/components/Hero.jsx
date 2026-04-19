@@ -11,7 +11,7 @@ export default function Hero() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-center py-20"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-center py-20 sm:py-0"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: "cover",
