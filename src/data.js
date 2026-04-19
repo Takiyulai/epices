@@ -55,7 +55,7 @@ export const individualProducts = [
 export const packs = [
   {
     id: 6,
-    name: "Pack 1 – Saveurs Essentielles",
+    name: "Pack 1 : Saveurs Essentielles",
     desc: "Inclut Mélange d’Épices, Poisson moulu et Crevettes moulues. L’accord parfait pour une cuisine béninoise authentique.",
     price: "16 000 FCFA",
     promo: "15 300 FCFA",
@@ -65,7 +65,7 @@ export const packs = [
   },
   {
     id: 7,
-    name: "Pack 2 – Arômes Gourmets",
+    name: "Pack 2 : Arômes Gourmets",
     desc: "Regroupe Crevettes moulues, Poisson moulu, Ail moulu et Mélange d’Épices. Un équilibre de goût et de fraîcheur.",
     price: "21 000 FCFA",
     promo: "19 500 FCFA",
@@ -75,7 +75,7 @@ export const packs = [
   },
   {
     id: 8,
-    name: "Pack 3 – L’Expérience Totale",
+    name: "Pack 3 : L’Expérience Totale",
     desc: "Comprend Piment assaisonné, Mélange d’Épices, Poudre d’Ail, Crevettes moulues, Poisson moulu, Poivre moulu et Gingembre en poudre.",
     price: "30 000 FCFA",
     promo: "27 000 FCFA",

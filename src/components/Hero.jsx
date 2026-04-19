@@ -20,7 +20,7 @@ export default function Hero() {
     >
       {/* Overlay plus sombre pour améliorer la lisibilité */}
       <div className="absolute inset-0 bg-black/70" />
-      
+
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto text-white">
         <motion.h1
           initial={{ y: 50, opacity: 0 }}
@@ -29,7 +29,7 @@ export default function Hero() {
           className="text-4xl md:text-7xl font-display font-black mb-6 leading-tight uppercase"
         >
           Dévouvrez des épices qui <br />
-          <span className="text-[#D4A017]">réveillent vos plats</span> 
+          <span className="text-[#D4A017]">réveillent vos plats</span>
         </motion.h1>
         <motion.p
           initial={{ y: 30, opacity: 0 }}
@@ -46,9 +46,9 @@ export default function Hero() {
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.5 }}
-          className="inline-flex items-center gap-3 bg-[#C17A47] hover:bg-[#2C5F2D] text-white font-semibold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 mb-2 md:mb-0"
+          className="inline-flex items-center justify-center gap-2 bg-[#C17A47] hover:bg-[#2C5F2D] text-white font-semibold py-3 px-6 rounded-full text-base sm:text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 w-auto min-w-[200px] sm:min-w-[240px]"
         >
-          <ShoppingBag size={22} />
+          <ShoppingBag size={18} />
           Commander maintenant
         </motion.a>
       </div>
