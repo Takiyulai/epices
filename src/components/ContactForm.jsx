@@ -66,7 +66,7 @@ export default function ContactSection() {
             Contactez - Nous
           </h2>
           <p className="text-center text-gray-500 mb-8">
-            Envoyez un message — réponse en moins de 24h.
+            Envoyez un message, réponse en moins de 24h.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">

@@ -28,7 +28,7 @@ export default function Hero() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-4xl md:text-7xl font-display font-black mb-6 leading-tight uppercase"
         >
-          Dévouvrez des épices qui <br />
+          Devouvrez des épices qui <br />
           <span className="text-[#D4A017]">réveillent vos plats</span>
         </motion.h1>
         <motion.p
